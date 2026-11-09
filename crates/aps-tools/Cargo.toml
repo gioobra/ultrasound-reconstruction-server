@@ -1,0 +1,13 @@
+[package]
+name = "aps-tools"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+aps-core = { path = "../aps-core" }
+anyhow.workspace = true
+bytemuck.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+clap = { version = "4", features = ["derive"] }
+zip = { version = "2", default-features = false, features = ["deflate"] }

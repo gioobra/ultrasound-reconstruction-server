@@ -1,0 +1,13 @@
+# Rust
+/target/
+
+# Dados pesados e gerados (H-*.csv.zip tem ~180 MB; cache/ tem ~1,7 GB)
+/data/
+/cache/
+/runs/
+
+# Editor / SO
+.idea/
+.vscode/
+*.swp
+.DS_Store
